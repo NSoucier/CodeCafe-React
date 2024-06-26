@@ -1,0 +1,13 @@
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.formInput {
+    background-color: #101010eb;
+    color: white;
+}
+
+.formInput:focus{
+    background-color: #292929eb;
+    color: white;
+}

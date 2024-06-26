@@ -1,0 +1,42 @@
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15vh;
+  height: calc(100vh - 56px); /* router view - navbar height */
+  overflow: scroll;
+  color: white;
+}
+
+.card {
+  border-radius: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 15vh;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.errorMsg {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.errorCode {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.error {
+  text-align: center;
+  background-color: rgba(185, 185, 185, 0.675);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.419);
+  transform: translate(0, -70%);
+}

@@ -50,7 +50,7 @@ function Menu({ snacks, drinks }) {
               </Link>
             ))}
           </ListGroup>
-          <Button className="addItem" onClick={handleClick}>Add {type}</Button>
+          <Button className="addItem" onClick={handleClick}>Add custom {type}</Button>
         </CardBody>
       </Card>
     </section>

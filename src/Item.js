@@ -23,7 +23,7 @@ function Item({ snacks, drinks, cantFind }) {
           </CardTitle>
           <CardText className="font-italic">{item.description}</CardText>
           <p>
-            <b>Recipe:</b> {item.recipe}
+            <b>Secret Recipe:</b> {item.recipe}
           </p>
           <p>
             <b>Served:</b> {item.serve}

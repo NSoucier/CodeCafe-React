@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// const BASE_API_URL = "http://localhost:5000";
-const BASE_API_URL = "https://snack-or-booze-backend-git-main-nathan-souciers-projects.vercel.app/";
+const BASE_API_URL = "https://snack-or-booze-backend-git-main-nathan-souciers-projects.vercel.app/"; // or "http://localhost:5000"
 
 /* 
   json-server will give you CRUD endpoints on snacks and drinks.
